@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/bgruszka/PHPAntiSpam/badges/gpa.svg)](https://codeclimate.com/github/bgruszka/PHPAntiSpam)
 
 ## PHPAntiSpam is a library that recognize if documents / messages / texts are spam or not. The library use statistical analysis.
+This library has been forked from https://github.com/bgruszka/PHPAntiSpam, which at the time had not been updated in over 9 years.
 
 ## Explanation in 4 steps:
 * Create tokenizer
@@ -18,7 +19,7 @@
 * Fisher-Robinson's Inverse Chi-Square Test method
 
 ## Installation
-`composer require bgruszka/phpantispam "^0.2"`
+`composer require quig-enterprises/phpantispam "^0.2"`
 
 ## Examples
 
