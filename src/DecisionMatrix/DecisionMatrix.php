@@ -8,7 +8,6 @@ abstract class DecisionMatrix implements DecisionMatrixInterface
 {
     protected $matrix = [];
     protected $words = [];
-    protected $corpus = null;
     protected $window = null;
 
     /** @var  \PHPAntiSpam\Corpus\CorpusInterface */
